@@ -1,0 +1,47 @@
+** 2019-12-05, 18:45:04, LiYurun
+** 2019-12-05, 18:45:11, LiYurun
+** 2019-12-05, 22:39:04, LiYurun
+** 2019-12-05, 23:04:24, LiYurun
+** 2019-12-06, 10:41:47, LiYurun
+** 2019-12-06, 14:51:58, LiYurun
+** 2019-12-06, 14:55:40, LiYurun
+** 2019-12-06, 15:03:20, LiYurun
+** 2019-12-06, 15:08:41, LiYurun
+** 2019-12-06, 15:42:59, LiYurun
+RESULTS SIMULATOR GEM 201410
+
+
+
+INUNIT SI
+WSRF WELL 1
+WSRF GRID TIME
+OUTSRF GRID PRES SG SO SW 
+OUTSRF RES NONE
+WPRN GRID TIME
+OUTPRN GRID SG 
+**  Distance units: m
+RESULTS XOFFSET           0.0000
+RESULTS YOFFSET           0.0000
+
+**  (DEGREES)
+RESULTS ROTATION           0.0000  **  (DEGREES)
+RESULTS AXES-DIRECTIONS 1.0 -1.0 1.0
+
+** ***************************************************************************
+** Definition of fundamental cartesian grid
+** ***************************************************************************
+GRID VARI 101 101 1
+KDIR DOWN
+NINEPOINT IJ
+DI IVAR 
+ 101*2
+DJ JVAR 
+ 101*2
+DK ALL
+ 10201*20
+DTOP
+ 10201*1800
+POR CON         0.24
+**  0 = null block, 1 = active block
+NULL CON            1
+PERMI    
